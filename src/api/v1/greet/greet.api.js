@@ -10,7 +10,7 @@ greetRouter.post('/greet', function (req, res) {
     const {body,headers} = req
 
     console.log(headers.name +' says '+ body.msg);
-    res.send('thnaks for posting')
+    res.send('thanks for posting')
 })
 
 export default greetRouter
