@@ -1,5 +1,5 @@
-import greetRouter from "./greet/greet.api"
-import userRouter from "./user/user.api"
+import greetRouter from "./greet/greet.api.js"
+import userRouter from "./user/user.api.js"
 import express  from 'express'
 
 const v1Router = express.Router()

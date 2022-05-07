@@ -4,7 +4,7 @@ const greetRouter = express.Router()
 
 
 greetRouter.get('/greet', function (req, res) {
-    res.send('hello world123')
+    res.send('hello world')
 })
 greetRouter.post('/greet', function (req, res) {
     const {body,headers} = req
